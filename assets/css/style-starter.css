@@ -14901,9 +14901,9 @@ nav ul li a:hover {
   font-weight: 700;
   color: #fff;
   text-transform: capitalize;
-  font-size: 60px;
-  line-height: 90px;
-  margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 20px;
 }
 
 .w3l-main-slider .banner-info-bg h5 span {
@@ -14982,19 +14982,25 @@ a.view:hover {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(https://scontent.fmpm2-1.fna.fbcdn.net/v/t1.6435-9/116310743_109653567504869_2030771168246548932_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHHv7OuAzlaFmT0hhF-ztR2zDfcGBliX9LMN9wYGWJf0rW9bZ9erQQE0XLeO5rSMOLUeKH2WN3N8yRfwZn7ffCV&_nc_ohc=_rTkNtnC2Q8AX9TaQsn&_nc_ht=scontent.fmpm2-1.fna&oh=00_AT-SAGaclf0JCHQ71dlQBNntsPvGvnYuD8WWJTMJU0IHZQ&oe=62F0AFD6) no-repeat center;
+  background: url(../images/carousel-3.jpg) no-repeat center;
   background-size: cover;
   min-height:100vh;
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(https://scontent.fmpm2-1.fna.fbcdn.net/v/t1.6435-9/116310743_109653567504869_2030771168246548932_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHHv7OuAzlaFmT0hhF-ztR2zDfcGBliX9LMN9wYGWJf0rW9bZ9erQQE0XLeO5rSMOLUeKH2WN3N8yRfwZn7ffCV&_nc_ohc=_rTkNtnC2Q8AX9TaQsn&_nc_ht=scontent.fmpm2-1.fna&oh=00_AT-SAGaclf0JCHQ71dlQBNntsPvGvnYuD8WWJTMJU0IHZQ&oe=62F0AFD6) no-repeat center;
+  background: url(../images/carousel-4.jpg) no-repeat center;
   background-size: cover;
   min-height:100vh;
 }
 
 .w3l-main-slider .banner-top3 {
-  background: url(https://scontent.fmpm2-1.fna.fbcdn.net/v/t1.6435-9/116310743_109653567504869_2030771168246548932_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeHHv7OuAzlaFmT0hhF-ztR2zDfcGBliX9LMN9wYGWJf0rW9bZ9erQQE0XLeO5rSMOLUeKH2WN3N8yRfwZn7ffCV&_nc_ohc=_rTkNtnC2Q8AX9TaQsn&_nc_ht=scontent.fmpm2-1.fna&oh=00_AT-SAGaclf0JCHQ71dlQBNntsPvGvnYuD8WWJTMJU0IHZQ&oe=62F0AFD6) no-repeat center;
+  background: url(../images/carousel-2.jpg) no-repeat center;
+  background-size: cover;
+  min-height:100vh;
+}
+
+.w3l-main-slider .banner-top4 {
+  background: url(../images/carousel-1.jpg) no-repeat center;
   background-size: cover;
   min-height:100vh;
 }
