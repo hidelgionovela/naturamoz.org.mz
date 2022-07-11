@@ -3624,6 +3624,31 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.125rem;
 }
+/*  */
+
+/* .w3lgrids-1.box-wrap {
+  padding: 40px 40px;
+ 
+  background: var(--bs-secondary);
+  border-radius: var(--border-radius);
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-gap: 20px;
+}
+
+.w3lgrids-1.box-wrap a {
+  font-size: 26px;
+  color: var(--heading-color);
+}
+
+.w3lgrids-1.box-wrap i {
+  font-size: 32px;
+  color: var(--bs-secondary);
+  margin-top: 10px;
+} */
+
+/*  */
 
 .dropleft .dropdown-toggle::after {
   display: inline-block;
