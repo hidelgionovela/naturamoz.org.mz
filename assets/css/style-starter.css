@@ -11180,27 +11180,27 @@ a.text-dark:focus {
 }
 
 .fa-rotate-90 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)"; */
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; */
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"; */
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)"; */
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"; */
   transform: scale(1, -1);
 }
 
@@ -15203,7 +15203,7 @@ a.view:hover {
 .owl-carousel .owl-stage {
   position: relative;
   touch-action: manipulation;
-  -moz-backface-visibility: hidden;
+  /* -moz-backface-visibility: hidden; */
 }
 
 .owl-carousel .owl-stage:after {
@@ -15218,19 +15218,20 @@ a.view:hover {
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
+  /* -webkit-transform: translate3d(0, 0, 0); */
 }
 
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
+  /* -webkit-backface-visibility: hidden; */
+  /* -webkit-transform: translate3d(0, 0, 0); */
+  animation: 1;
 }
 
 .owl-carousel .owl-item {
   min-height: 1px;
   float: left;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   -webkit-touch-callout: none;
 }
 
@@ -15377,7 +15378,7 @@ a.view:hover {
   background: url(owl.video.play.png) no-repeat;
   cursor: pointer;
   z-index: 1;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   transition: transform .1s ease;
 }
 
@@ -15500,7 +15501,7 @@ a.view:hover {
   margin: 5px 2px;
   background: #fff;
   display: block;
-  -webkit-backface-visibility: visible;
+  /* -webkit-backface-visibility: visible; */
   transition: opacity .2s ease;
   border-radius: 25px;
   position: relative;
@@ -16340,7 +16341,7 @@ a.read span {
   margin: 5px 2px;
   background: #d8d8d8;
   display: block;
-  -webkit-backface-visibility: visible;
+  /* -webkit-backface-visibility: visible; */
   transition: opacity .2s ease;
   border-radius: 50%;
   position: relative;
@@ -16844,7 +16845,7 @@ p.count-text {
 .contact-address ul li span.fa {
   margin-right: 13px;
   font-size: 17px;
-  float: left;
+  /* float: left; */
   display: inline-block;
   background: #ffffff;
   color: var(--secondary-color);
