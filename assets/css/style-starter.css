@@ -14074,11 +14074,13 @@ a.text-dark:focus {
   margin: 0;
   overflow: visible;
   clip: auto;
+  color:#007bff;
 }
 
 :root {
   --primary-color: #000;
-  --secondary-color: #1fa12e;
+  /* --secondary-color: #1fa12e; */
+  --secondary-color: #007bff;
   --font-color: #696969;
   --bg-color: #fff;
   --heading-color:#111;
@@ -17164,4 +17166,3 @@ p.count-text {
   }
 }
 
-/*# sourceMappingURL=style-freedom.css.map */
