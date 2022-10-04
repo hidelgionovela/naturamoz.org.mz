@@ -15042,6 +15042,12 @@ a.view:hover {
   margin-top:90px;
 }
 
+.w3l-main-slider .banner-top0 {
+  background: url(../images/banner4.jpg) no-repeat center;
+  background-size: cover;
+  min-height:100vh;
+}
+
 .w3l-main-slider .banner-top1 {
   background: url(../images/carousel-3.jpg) no-repeat center;
   background-size: cover;
